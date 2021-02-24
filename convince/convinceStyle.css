@@ -2,7 +2,7 @@ ul.nav {
   list-style-type: none;
   width: 100%;
   position: fixed;
-  bottom: 0%;
+  top: 0%;
   left: 0%;
   background-color: lightblue;
   margin: 0;
