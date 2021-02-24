@@ -28,3 +28,13 @@ table, th, tr, td {
   width:50%
   
 }
+div.sauce {
+ background-color: orange;
+  border-width:3px;
+border-style:solid;
+border-color:black;
+  max-width: 50%;
+  left: 25%;
+  top: 25px;
+  position: sticky;
+ }
