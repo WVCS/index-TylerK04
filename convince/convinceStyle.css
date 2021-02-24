@@ -23,3 +23,8 @@ li a:hover {
   color: black;
   font-size: 170%;
 }
+table, th, tr, td {
+  border: 2.5px dashed black;
+  width:50%
+  
+}
