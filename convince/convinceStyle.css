@@ -46,3 +46,11 @@ background-color: lightgrey;
 .reasons {
 list-style-type: upper-roman;
 }
+
+.what {
+font-family: Garamond;
+}
+
+.ca {
+font-style: italic;
+}
