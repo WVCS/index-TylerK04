@@ -38,3 +38,7 @@ border-color:black;
   top: 25px;
   position: sticky;
  }
+
+body {
+background-color: lightgrey;
+}
