@@ -2,7 +2,31 @@ body {
 background-color: #F9B045;
 }
 
+ul.nav {
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: grey;
+  margin: 0;
+}
+li.nav {
+  display: inline;
+  padding: 100px;
+  margin: 10px;
+}
+a.nav{
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 150%;
+}
 
+li a:hover {
+  background-color: gold;
+  color: black;
+  font-size: 170%;
+}
 
 
 
