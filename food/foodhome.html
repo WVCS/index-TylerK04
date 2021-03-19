@@ -15,6 +15,12 @@
     <br>
   <img src="food site logo.png">
     <h1> Welcome to the Chum Bucket!</h1>
+	  <div id="moar">
+    Say No to Krabs!
+    <br>
+    <img src="https://www.shitpostbot.com/img/sourceimages/face-freeze-mr-krabs-57d786489d3fb.jpeg" width="200px">
+  </div>
+  
     <div class="wrapper">
   <div class="box a">
     <p> If one of you were to give me the Krabby Patty Secret formula, you would get a discount! </p> <p class="deal"> 1% off on Chum! </p>
@@ -79,6 +85,21 @@
   margin-right: auto;
   width: 50%;
 	  }
-  
+  #moar {background-color: lightblue;
+width: 200px;
+  animation-name: float;
+   animation-duration: 12s;
+  animation-delay: 2s;
+  animation-direction: alternate-reverse;
+  position: relative;
+  animation: float 6s infinite;
+}
+@keyframes float{
+    0% {background-color: gold; left: 0px; top: 0px;}
+  25% {background-color: blue; left: 200px; top: 0px;}
+  50% {background-color: red; left: 400px; top: 400px;}
+  75% {background-color: yellow; left: 200px; top: 200px;}
+  100% {background-color: purple; left: 0px; top: 0px;}
+}
   </style>
 </html>
