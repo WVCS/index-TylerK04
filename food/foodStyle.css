@@ -50,7 +50,11 @@ width: 50%;
 }
 
 
-
+table, th, tr, td {
+  border: 2.5px solid red;
+  width: 50%;
+  background-color:antiquewhite;
+		  }
 
 
 
