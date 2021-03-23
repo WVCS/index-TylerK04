@@ -28,7 +28,10 @@ li a:hover {
   font-size: 170%;
 }
 
-
+table, th, tr, td {
+  border: 2.5px solid red;
+  width: 50%;
+		  }
 
 
 
