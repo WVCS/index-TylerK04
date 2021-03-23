@@ -28,14 +28,17 @@ li a:hover {
   font-size: 170%;
 }
 
-table, th, tr, td {
+table.menu, th, tr, td {
   border: 2.5px solid red;
-  width: 50%;
 		  }
 
+th.menu{
+ border: 2.5px solid red;
+}
 
-
-
+tr.menu {
+ border: 2.5px solid red;
+}
 
 
 
