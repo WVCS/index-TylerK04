@@ -10,6 +10,7 @@ ul.nav {
   left: 0%;
   background-color: grey;
   margin: 0;
+  z-index: 2;
 }
 li.nav {
   display: inline;
