@@ -57,6 +57,20 @@
     <img src="rowloo.jpg" style="width:48%">
     <img class="img2" src="https://static.wikia.nocookie.net/0973b806-04b6-4ec9-96b5-91bbb74422dc" style="width:48%">
     </center>
+    <div class="contain2">
+  <div class="ib">
+<img class="img2" src="faceloo.png" width="48%">
+  </div>
+  <div class="ib2">
+  <img class="img1" src="torchloo.jpg" width="48%">
+  </div>
+  <div class="ib3">
+<img class="img2" src="rowloo.jpg" width="48%">
+  </div>
+  <div class="ib4">
+  <img class="img1" src="https://static.wikia.nocookie.net/0973b806-04b6-4ec9-96b5-91bbb74422dc" width="48%">
+    </div>
+</div>
     <style>
       button {
   background-color: lightgreen;
@@ -121,11 +135,38 @@ a:hover {
   position:relative;
 }
       @media screen and (max-width:1500px) { 
-        img{
-          width: 1vw;
-          display: block;
-        }
+      img{
+    display: block;
+    width: 100%;
+  }
+  .contain2 {
+    display:grid;
+  }
+  .ib{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .ib2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .ib3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .ib4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}
       
-      }
     </style>
 </html>
