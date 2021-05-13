@@ -4,7 +4,7 @@ background-color: ;
 
 ul.nav {
   list-style-type: none;
-  width: 100%;
+  width: 33%;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -14,7 +14,7 @@ ul.nav {
 }
 li.nav {
   display: inline;
-  padding: 100px;
+
   margin: 10px;
 }
 a.nav{
