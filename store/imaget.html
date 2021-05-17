@@ -19,6 +19,8 @@
   </div>
     
 </form>
+    <button onclick="toppy()" id="topper"> TOP  </button>
+</body>
     <br>
     <br>
     <br>
@@ -134,6 +136,23 @@ form{
 float: right;    
 top: 0%;
 }
+    #topper{
+  display: none;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  background-color: red;
+  border: 2px solid black;
+  font-size: 13px;
+  padding: 12px;
+   border-radius: 5px;
+}
+
+#topper:hover {
+  background-color: lightgreen;
+  border: 2px dashed black;
+  border-radius: 5px;
+}
   </style>
   
   <script>
@@ -223,6 +242,18 @@ var countries = ["Big Mac", "Sour Dough Jack", "Krabby Patty", "Swiss and Bacon"
 
 autocomplete(document.getElementById("myInput"), countries);
     
-    
+    function toppy() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop= 0;
+}
+
+window.onscroll = function() {disappear()};
+
+function disappear() {
+  if (document.body.scrollTop > 50 ||document.documentElement.scrollTop >50) document.getElementById("topper").style.display="block";
+  else {
+    document.getElementById("topper").style.display="none";
+  }
+}
     </script>
 </html>
