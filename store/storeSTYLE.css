@@ -28,6 +28,9 @@ li a:hover {
   color: black;
   font-size: 170%;
 }
+ .cart {
+    z-index: 14;
+    }
 .itemcontainer {
     display: grid;
     }
