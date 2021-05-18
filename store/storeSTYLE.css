@@ -28,6 +28,20 @@ li a:hover {
   color: black;
   font-size: 170%;
 }
+.hovy {
+  width: 5%;
+  max-height: 5%;  
+  float: right;
+  background-color: red;
+  border: 2px solid black;
+  display:inline-block;
+}
+
+.hovy:hover {
+  background-color: lightgreen;
+  border: 2px dashed black;
+  border-radius: 5px;
+}
  .cart {
     z-index: 14;
     }
