@@ -63,3 +63,15 @@ left: 0%;
 .mt{
   text-decoration: underline;
 }
+div.omega {
+    width: 50%;
+    background-color: #FF7502;
+    border: dashed #000000 6px;
+    border-radius: 15px;
+   }
+   div.robloxiscool {
+   width: 50%;
+    background-color: #00FF93;
+    border: dashed #000000 6px;
+    border-radius: 15px;
+   }
