@@ -16,6 +16,7 @@
 
 
 <body>
+ <button onclick="carty()" id="cartman"> TOP  </button>
  <center>
  <br> <br> <br>
  <div class="Noun"> My Noun is Valve, the videogame company </div>
@@ -139,10 +140,40 @@ button:hover {
     width:50%;
 }
  
- 
+ #cartman{
+  display: none;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  background-color: red;
+  border: 2px solid black;
+  font-size: 13px;
+  padding: 12px;
+   border-radius: 5px;
+  width: 5%;
+  height: 5;
+}
+
+#cartman:hover {
+  background-color: lightgreen;
+  border: 2px dashed black;
+  border-radius: 5px;
+}
  
 </style>
 <script>
- 
+ function carty() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop= 0;
+}
+
+window.onscroll = function() {disappear()};
+
+function disappear() {
+  if (document.body.scrollTop > 50 ||document.documentElement.scrollTop >50) document.getElementById("cartman").style.display="block";
+  else {
+    document.getElementById("cartman").style.display="none";
+  }
+}
 </script>
 </html>
