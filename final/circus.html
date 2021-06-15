@@ -3,13 +3,62 @@
   
   </head>
   <body>
-    <p> We really need to start doing this </p> 
+  <ul>
+  <li><a href="../index.html"> Index </a></li>
+  
+  <form autocomplete="off" action="/action_page.php">
+  <div class="autocomplete" style="width:50%;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Search">
+  </div>
+    </form>
+</ul>
     
     
     
   </body>
   <style>
-    
+    ul{
+  
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: lightgray;
+  top: 0%; 
+}
+li{
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px;
+  color: white;
+  font-size: 20px;
+    font-family: times new roman;
+}
+
+  li a:hover {
+  color: gold;
+    background-color: gray;
+    transition: 1s;
+    font-size: 20px;}
+      
+      
+      .autocomplete {
+  background-color: lightgray;
+  width: 90%;
+  padding: 14px;
+  color: white;  
+}
+
+form {
+  float: right;
+}
+
   </style>
   <script>
     
