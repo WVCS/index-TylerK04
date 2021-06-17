@@ -5,6 +5,7 @@
   <body>
   <ul>
   <li><a href="../index.html"> Index </a></li>
+  <li><a href="#ai"> Additional Information </a></li>
   
   <form autocomplete="off" action="/action_page.php">
   <div class="autocomplete" style="width:50%;">
@@ -58,7 +59,17 @@
       </div>
     </div>
   </div>
-        
+ <div id="ai">
+  
+  <div class="Reception">
+    <h1> Reviews </h1>
+    <p>"Best. Show. Ever. Quite a circus, and I've seen them all" - Ms. Neumann</p>
+    <center>
+      <button><span> Join our Mailing List</span></button>
+      <p> ^ to receive more info and deals ^ </p>
+    </center>
+  </div>
+      </div>       
 
     
   </body>
@@ -261,6 +272,29 @@ p {
   border: 2px dashed black;
   border-radius: 5px;
 }
+	.Reception {
+  background-color: white;
+	color: black;
+	padding: 100px;
+  border: 1px solid black;
+  font-family: times new roman;
+}
+.mail {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: white;
+	color: #1C1D2;
+	
+  border: 1px solid black;
+  font-family: times new roman;
+  float: left;
+}
+  
+.stuff2{
+  display: grid;
+}
   </style>
   <script>
     alert('🚨DISCOUNT ALERT🚨: CHECK BELOW FOR REDUCED PRICES') 
@@ -278,5 +312,6 @@ function disappear() {
     document.getElementById("topper").style.display="none";
   }
 }
+
   </script>
 </html>
