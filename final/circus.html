@@ -96,18 +96,7 @@ li a{
     font-size: 20px;}
       
       
-      .autocomplete {
-  background-color: lightgray;
-  width: 90%;
-  padding: 14px;
-  color: white;  
-}
-
-form {
-  float: right;
-}
-
-    #entireDiv {
+      #entireDiv {
   position: fixed;
 }
 .info {
@@ -148,7 +137,7 @@ form {
   color: black;
 }
 
-.giffy {
+.snow {
   display: block;
   height: auto;
   margin-left: auto;
@@ -186,8 +175,9 @@ button:hover {
 
 .c, d, e, e2 {
 	grid-column: 1;
-	grid-row: 2 / 2;
+	grid-row: 2/ 2;
 }
+
 
 h1 {
   text-align:center;
@@ -214,11 +204,38 @@ p {
 }
 
 .item{
-  background-color: lightgray;
+  background-color: ;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 5%;
 }
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0px 4px;
+}
+
+.column {
+  width: 50%;
+}
+
+.column img {
+  margin-top: 50px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column2 {
+    width: 50%;
+    float: right;
+  }
   </style>
   <script>
     alert('🚨DISCOUNT ALERT🚨: CHECK BELOW FOR REDUCED PRICES') 
